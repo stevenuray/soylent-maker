@@ -10,9 +10,9 @@ String currentBlenderDirection = "UP";
 
 Servo pulleyServo;
 const int MIN_PULLEY_POSITION = 975;
-const int MAX_PULLEY_POSITION = 1900;
-const int LOW_BLEND_POSITION = 1200;
-const int HIGH_BLEND_POSITION = 1400;
+const int MAX_PULLEY_POSITION = 2000;
+const int LOW_BLEND_POSITION = 1250;
+const int HIGH_BLEND_POSITION = 1650;
 unsigned long pulleyDirectionSwitchTime = 0;
 unsigned long blenderCycleEndTime = 0;
 String pulleyDirection = "UP";
